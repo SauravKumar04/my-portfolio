@@ -72,7 +72,7 @@
     width: 15px;
     color: grey;
 }
-@media(max-width:768px){
+@media(max-width:1324px){
     .services{
         align-items: center;
         gap: 70px;

@@ -81,7 +81,7 @@
     transition: 0.3s;
 }
 
-@media(max-width: 768px) {
+@media(max-width:1324px) {
     .footer {
         margin: 40px 20px;
         gap: 40px;

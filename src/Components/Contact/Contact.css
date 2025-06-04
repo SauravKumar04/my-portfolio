@@ -140,8 +140,14 @@
     .contact-left h1{
         font-size: 40px;
     }
+    .contact-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .contact-left p{
-        font-size: 18px;
+        font-size: 14px;
+        text-align: center;
     }
     .contact-detail{
         gap: 16px;

@@ -123,11 +123,11 @@
     .contact{
         gap: 50px;
         margin: 50px 70px;
-        align-items: start;
+        align-items: center;
     }
     .contact-title h1{
         padding: 0;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 600;
     }
     .contact-title img{
@@ -163,5 +163,8 @@
     .contact-submit{
         font-size: 16px;
         padding: 10px 20px;
+    }
+    .contact-left{
+        align-items: center;
     }
 }

@@ -9,6 +9,23 @@
      letter-spacing: 1px;
      text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
  }
+.fire-emoji {
+  display: inline-block;
+  margin-left: 8px;
+  animation: flamePulse 1s infinite ease-in-out;
+  font-size: 2rem;
+}
+
+@keyframes flamePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+}
 
  #name:hover {
      transform: scale(1.08);

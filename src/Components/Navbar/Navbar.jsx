@@ -17,7 +17,11 @@ const Navbar = () => {
     }
     return (
         <div className="navbar">
-            <h1><span id='name'>Saurav.</span></h1>
+            <h1>
+  <span id="name">Saurav.</span>
+  <span className="fire-emoji">🔥</span>
+</h1>
+
             <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
             <ul ref={menuRef} className="nav-menu">
                 <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />

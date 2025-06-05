@@ -48,14 +48,14 @@
 
 }
 
-.about-para {
+.about-right-para {
     display: flex;
     flex-direction: column;
     gap: 15px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
-    color: #333;
+    color: #d5cccc;
 }
 
 .about-skills {
@@ -132,7 +132,7 @@
 
     }
     .about-title h1{
-        font-size: 40px;
+        font-size: 30px;
         padding-right: 40px;
     }
     .about-title img{
